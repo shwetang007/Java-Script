@@ -13,3 +13,9 @@ console.log(output);
 fun1();
 fun2();// scope refers to the visibility of functions
 // the code above tells us the use as well as importance of the global declaration
+var outerwear="T-shirt";
+function myoutfit() {
+    var outerwear="sweater";
+    return outerwear;
+}
+console.log(outerwear);
