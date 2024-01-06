@@ -20,3 +20,19 @@ console.log(removed);
 var mya=[["hapop",2],["hwlo",4]];
 var remved=mya.shift();
 // unshift() will also remove the first element but it will also swap it with given string
+// iterate though for loop
+var arr1=[1,2,3,4,5,6,7,8,9]
+var tot=0
+for(var i=0;i<arr1.length;i++){
+    tot+=i;
+}
+console.log(tot);
+// using const keyword
+const s=[1,2,3,4,5];
+function editinplace(){
+    "use strict";
+    s[0]=3
+    s[2]=9
+}
+editinplace();
+console.log(s);
